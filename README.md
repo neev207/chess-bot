@@ -18,7 +18,7 @@ A small chess engine written in Python on top of [`python-chess`](https://python
 | RQ2 | Does a learned evaluation predict game outcomes better than material counting, and does it play stronger at equal depth / equal time? | `scripts/train_eval.py`, `scripts/run_match.py` |
 | RQ3 | How much Elo does each extra ply of search buy (diminishing returns)? | `scripts/exp_depth_ladder.py` |
 
-## Results  *(fill in with YOUR numbers after running the experiments)*
+## Results
 
 | Experiment | Result |
 |---|---|
