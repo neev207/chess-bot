@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+data/*.pgn
+data/*.zst
+data/*.npz
+.pytest_cache/

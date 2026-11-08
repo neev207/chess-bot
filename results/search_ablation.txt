@@ -1,0 +1,15 @@
+
+Depth 3  (8 positions)
+configuration             nodes (geo-mean)  vs alpha-beta   seconds  score differs
+minimax                             27,496          8.49x      5.65              0
+alpha-beta                           3,239          1.00x      0.87              0
++ MVV-LVA                            1,154          0.36x      0.22              0
++ killers/history                    1,154          0.36x      0.23              0
++ transposition table                1,149          0.35x      0.25              0
+
+Depth 4  (8 positions)
+configuration             nodes (geo-mean)  vs alpha-beta   seconds  score differs
+alpha-beta                          41,119          1.00x     11.56              0
++ MVV-LVA                            4,877          0.12x      0.45              0
++ killers/history                    4,767          0.12x      0.47              0
++ transposition table                4,018          0.10x      0.39              0

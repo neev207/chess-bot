@@ -1,0 +1,6 @@
+python-chess>=1.10
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.0
+# Only needed if you want to read Lichess .pgn.zst files directly (otherwise decompress them first):
+zstandard>=0.21

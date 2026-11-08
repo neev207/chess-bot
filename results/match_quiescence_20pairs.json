@@ -1,0 +1,16 @@
+{
+  "a": "eval=material,depth=3,quiescence=1",
+  "b": "eval=material,depth=3,quiescence=0",
+  "seed": 0,
+  "pairs": 20,
+  "games": 40,
+  "wins": 20,
+  "draws": 17,
+  "losses": 3,
+  "score": 0.7125,
+  "elo": 157.65880786195945,
+  "elo_lo": 80.59713726420881,
+  "elo_hi": 253.078191885467,
+  "avg_game_plies": 165.4,
+  "minutes": 7.326377050081889
+}

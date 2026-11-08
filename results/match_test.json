@@ -1,0 +1,16 @@
+{
+  "a": "eval=models/learned_pst.npy,depth=3",
+  "b": "eval=material,depth=3",
+  "seed": 0,
+  "pairs": 2,
+  "games": 4,
+  "wins": 4,
+  "draws": 0,
+  "losses": 0,
+  "score": 1.0,
+  "elo": 1199.8261952903774,
+  "elo_lo": 1199.8261952903774,
+  "elo_hi": 1199.8261952903774,
+  "avg_game_plies": 84.0,
+  "minutes": 1.9841182827949524
+}

@@ -1,0 +1,60 @@
+{
+  "3": {
+    "minimax": {
+      "geomean_nodes": 27496.07624727492,
+      "mean_seconds": 5.645848874999501,
+      "nodes_vs_alpha_beta": 8.48888676228182,
+      "score_differs_from_alpha_beta": 0
+    },
+    "alpha-beta": {
+      "geomean_nodes": 3239.0673850718144,
+      "mean_seconds": 0.8670147250013542,
+      "nodes_vs_alpha_beta": 1.0,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ MVV-LVA": {
+      "geomean_nodes": 1153.6935317123705,
+      "mean_seconds": 0.2228653999918606,
+      "nodes_vs_alpha_beta": 0.35618077506800344,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ killers/history": {
+      "geomean_nodes": 1153.6935317123705,
+      "mean_seconds": 0.22669460000906838,
+      "nodes_vs_alpha_beta": 0.35618077506800344,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ transposition table": {
+      "geomean_nodes": 1148.7699000548198,
+      "mean_seconds": 0.25283426250098273,
+      "nodes_vs_alpha_beta": 0.3546606981223235,
+      "score_differs_from_alpha_beta": 0
+    }
+  },
+  "4": {
+    "alpha-beta": {
+      "geomean_nodes": 41119.113088660524,
+      "mean_seconds": 11.555360062491673,
+      "nodes_vs_alpha_beta": 1.0,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ MVV-LVA": {
+      "geomean_nodes": 4877.496652281621,
+      "mean_seconds": 0.4520224500083714,
+      "nodes_vs_alpha_beta": 0.11861872219288438,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ killers/history": {
+      "geomean_nodes": 4766.649445814559,
+      "mean_seconds": 0.4711496000090847,
+      "nodes_vs_alpha_beta": 0.11592296350207677,
+      "score_differs_from_alpha_beta": 0
+    },
+    "+ transposition table": {
+      "geomean_nodes": 4018.2006261789047,
+      "mean_seconds": 0.3895505749969743,
+      "nodes_vs_alpha_beta": 0.09772099455343095,
+      "score_differs_from_alpha_beta": 0
+    }
+  }
+}
