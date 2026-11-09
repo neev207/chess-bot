@@ -99,17 +99,6 @@ python scripts/exp_depth_ladder.py
 
 Run `python scripts/<name>.py --help` for every option. Results are written to `results/`.
 
-## Play against the bot in your browser
-
-```bash
-python webapp/server.py                  # then open http://127.0.0.1:8000
-python webapp/server.py --eval material  # the material-only engine instead
-```
-
-Pick a colour and a level (search depth 1 to 3) and click a piece, then its destination. The server needs no
-packages beyond `requirements.txt`. By default only your own computer can connect; use `--host 0.0.0.0` to let
-other devices on the same network play, and do not leave it open on a public network (there is no login).
-
 ## Layout
 
 ```
@@ -123,7 +112,6 @@ chessbot/
   data.py        PGN -> labelled training positions
   training.py    Texel-style training loop (numpy)
   uci.py         UCI protocol, so the engine runs in chess GUIs
-webapp/          play in the browser: server.py (standard library only) + index.html
 scripts/         one script per experiment / pipeline step
 tests/           unit tests
 ```
